@@ -1,0 +1,26 @@
+# === KaneCLI run artifacts & secrets ===
+# Real credentials / variable values — never commit. Use assurance.example.json instead.
+.testmuai/variables/assurance.json
+
+# Sealed evidence packs are large binaries, regenerated on every run.
+.testmuai/evidence/
+
+# Per-run output folders written during testrun.
+.testmuai/tests/output-*/
+
+# Local session logs / caches, if any land here.
+.testmuai/**/*.log
+.testmuai/cache/
+
+# === OS / editor cruft ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# === Node (only if tooling is added later) ===
+node_modules/
+npm-debug.log*

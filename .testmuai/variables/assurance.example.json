@@ -1,0 +1,6 @@
+{
+  "login_username": { "value": "<cura-demo-username>", "secret": true },
+  "login_password": { "value": "<cura-demo-password>", "secret": true },
+  "setup_credentials": { "value": "Username '<cura-demo-username>' and password '<cura-demo-password>'", "secret": true },
+  "appointment_details": { "value": "Facility: Tokyo CURA Healthcare Center; Healthcare program: Medicare; Visit date: 20/12/2026; Comment: Automated exploration test", "secret": true }
+}
